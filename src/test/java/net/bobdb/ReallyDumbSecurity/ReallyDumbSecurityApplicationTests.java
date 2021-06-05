@@ -8,6 +8,7 @@ class ReallyDumbSecurityApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }

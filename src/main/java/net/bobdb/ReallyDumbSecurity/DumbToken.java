@@ -1,19 +1,23 @@
 package net.bobdb.ReallyDumbSecurity;
 
+
+import java.time.Instant;
+
 public class DumbToken {
-    String token;
+    private String token;
+    private Instant instant;
+
     public DumbToken() {
         this.token = null;
     }
+
     public DumbToken(String token) {
         this.token = token;
+        Instant instant;
     }
 
-    public String getToken() {
-        return token;
+    public DumbToken getToken() {
+        return this;
     }
 
-    public void setToken(String token) {
-        this.token = token;
-    }
 }

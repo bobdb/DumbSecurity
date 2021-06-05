@@ -10,7 +10,11 @@ public class TokenService {
     private Map<String,DumbToken> map = new HashMap<>();
 
     public TokenService() {
-        map.put("abc12331415",new DumbToken("MYTOKEN!@#"));
+        addToken("sadf","asdf");
+    }
+
+    public void addToken(String key, String value) {
+        map.put(key,new DumbToken(value));
     }
 
     public DumbToken getToken(String apiKey, String accountId) {
