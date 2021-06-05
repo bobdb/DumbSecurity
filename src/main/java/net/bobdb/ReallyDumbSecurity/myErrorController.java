@@ -26,6 +26,10 @@ public class myErrorController implements ErrorController {
                 return "error-405";
             }
 
+            if(statusCode == HttpStatus.UNAUTHORIZED.value()) {
+                return "error-badtoken"; // TODO needs to actually get caught
+            }
+
 //            if(statusCode == HttpStatus.NOT_FOUND.value()) {
 //                return "error-404";
 //            }

@@ -13,6 +13,9 @@ public class TokenService {
         addToken("sadf","asdf");
     }
 
+    public boolean isOk(DumbToken token) {
+        return true; //TODO
+    }
     public void addToken(String key, String value) {
         map.put(key,new DumbToken(value));
     }

@@ -5,7 +5,7 @@ import java.time.Instant;
 
 public class DumbToken {
     private String token;
-    private Instant instant;
+    private Instant created;
 
     public DumbToken() {
         this.token = null;
@@ -13,7 +13,7 @@ public class DumbToken {
 
     public DumbToken(String token) {
         this.token = token;
-        Instant instant;
+        this.created = Instant.now();
     }
 
     public DumbToken getToken() {
