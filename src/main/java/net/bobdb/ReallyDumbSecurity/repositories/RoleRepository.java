@@ -1,4 +1,4 @@
-package net.bobdb.ReallyDumbSecurity.Repositories;
+package net.bobdb.ReallyDumbSecurity.repositories;
 
 import java.util.Optional;
 

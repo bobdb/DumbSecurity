@@ -1,5 +1,6 @@
-package net.bobdb.ReallyDumbSecurity;
+package net.bobdb.ReallyDumbSecurity.services;
 
+import net.bobdb.ReallyDumbSecurity.entities.DumbToken;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
@@ -7,7 +8,7 @@ import java.util.Map;
 
 @Service
 public class TokenService {
-    private Map<String,DumbToken> map = new HashMap<>();
+    private Map<String, DumbToken> map = new HashMap<>();
 
     public TokenService() {
         addToken("sadf","asdf");

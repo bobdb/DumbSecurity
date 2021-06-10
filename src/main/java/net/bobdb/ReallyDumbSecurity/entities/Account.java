@@ -1,4 +1,4 @@
-package net.bobdb.ReallyDumbSecurity;
+package net.bobdb.ReallyDumbSecurity.entities;
 
 public class Account {
     String account;

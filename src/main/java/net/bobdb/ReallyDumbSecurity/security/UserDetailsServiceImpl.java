@@ -1,6 +1,6 @@
 package net.bobdb.ReallyDumbSecurity.security;
 
-import net.bobdb.ReallyDumbSecurity.Repositories.UserRepository;
+import net.bobdb.ReallyDumbSecurity.repositories.UserRepository;
 import net.bobdb.ReallyDumbSecurity.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
